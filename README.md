@@ -23,3 +23,5 @@ winget install --id=File-New-Project.EarTrumpet -e
 ```shell
 winget install --id=Spotify.Spotify  -e
 ```
+
+https://www.nvidia.com/en-us/software/nvidia-app/
