@@ -1,5 +1,25 @@
 # windows-dotfiles
 
 ```shell
-winget install --id=Zen-Team.Zen-Browser -e  && winget install --id=smartfrigde.Legcord -e  && winget install --id=Valve.Steam -e  && winget install --id=RiotGames.LeagueOfLegends.EUW -e  && winget install --id=Microsoft.PowerToys -e
+winget install --id=Zen-Team.Zen-Browser -e
+```
+
+```shell
+winget install --id=Discord.Discord -e
+```
+
+```shell
+winget install --id=Valve.Steam -e
+```
+
+```shell
+winget install --id=Microsoft.PowerToys -e
+```
+
+```shell
+winget install --id=File-New-Project.EarTrumpet -e
+```
+
+```shell
+winget install --id=Spotify.Spotify  -e
 ```
