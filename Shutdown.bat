@@ -2,7 +2,7 @@
 cls
 
 :: --- Configuration ---
-set "default_minutes=5"
+set "minutes=3"
 set "abort_key=a"
 
 :: --- User Input ---
@@ -10,17 +10,6 @@ echo =======================================
 echo   Interactive Shutdown with Abort
 echo =======================================
 echo.
-set /p "minutes=Enter minutes until shutdown (Press Enter for %default_minutes%): "
-if not defined minutes set "minutes=%default_minutes%"
-
-:: Validate that the input is a number
-echo %minutes% | findstr /r /c:"^[0-9]*$" > nul
-if errorlevel 1 (
-  echo.
-  echo Invalid input. Please enter numbers only.
-  pause
-  exit /b
-)
 
 set /a "countdown=%minutes% * 60"
 
