@@ -19,7 +19,7 @@ winget install --id=GOG.Galaxy -e
 winget install --id=Playnite.Playnite -e
 winget install --id=RiotGames.LeagueOfLegends.EUW -e
 winget install --id=ItchIo.Itch -e
-winget install --id=FilesCommunity.Files -e
+winget install --id=EpicGames.EpicGamesLauncher -e
 ```
 
 <https://vencord.dev/>
